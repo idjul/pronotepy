@@ -101,7 +101,7 @@ laclasse_educonnect = partial(
 
 monbureaunumerique = partial(
     _cas_edu,
-    url="https://cas.monbureaunumerique.fr/login?selection=EDU&service=",
+    url="https://educonnect.education.gouv.fr/idp/profile/SAML2/POST/SSO?execution=e1s2",
 )
 
 ac_reims = monbureaunumerique
